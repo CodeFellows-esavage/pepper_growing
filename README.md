@@ -11,3 +11,4 @@ Erik Savage
 ## Resources
 - Images sourced from [unsplash.com](https://unsplash.com/)
 - [W3schools.com](www.w3schools.com)
+- Google Fonts
