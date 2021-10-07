@@ -4,9 +4,7 @@ body {
         font-family: 'Libre Baskerville', serif;
         background-color: #EEF1BD;
 }
-/* main {
-    
-} */
+
 header {
     background-color: #C4A381;
 }
@@ -22,21 +20,17 @@ header li{
 }
 .navbar {
     list-style-type: none;
-    /* float: left; */
-    /* display: block; */
     text-decoration: none;
-    /* display: inline; */
     text-align: center;
-    
     margin: 10px;
     padding: 0;
     border-right: 1px;
     border-color: black;
 }
 
-/* section p {
-
-} */
+.radio {
+    display: inline;
+}
 
 footer {
     background-color: #C4A381;
