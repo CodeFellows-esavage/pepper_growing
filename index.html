@@ -2,9 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <script src="app01.js"></script>
         <title>
             Pepper Growing
         </title>
@@ -15,7 +13,7 @@
             Pepper Growing
             </h1>
             <section>
-                <script src=app02.js></script>
+                <script>seattleLocal();</script>
             </section>
 
             <section class="navbar">
@@ -25,23 +23,22 @@
                     <li>Pepper Varieties</li>
                     <li>Tools</li>
                     <li>
-                        <script src=app03.js></script>
+                        <script>yourDate();</script>
                     </li>
                 </ul>
             </section>
         </header>
         <main>
             <section class="radio">
-                <p>
-                    <script src="app01.js"> </script>
-                </p>
-                <input type="radio" name="pepperType" id="mild" value="mild">
+                <input type="radio" name="pepperType" id="mild" value="mild" onclick="spicy('mild')">
                 <label for="mild">mild</label>
-                <input type="radio" name="pepperType" id="medium" value="medium">
+                <input type="radio" name="pepperType" id="medium" value="medium" onclick="spicy('medium')">
                 <label for="medium">medium</label>
-                <input type="radio" name="pepperType" id="hot" value="hot">
+                <input type="radio" name="pepperType" id="hot" value="hot" onclick="spicy('hot')">
                 <label for="hot">hot</label>
-                <button onclick="spicy()" id="pepperBtn"> See Pepper</button>
+                <section id="pepperimg">
+                </section>
+                
             </section>
             <section>
                 <img src="https://images.unsplash.com/photo-1601144698750-c9b8560bc1fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1752&q=80">
