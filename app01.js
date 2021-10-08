@@ -13,7 +13,7 @@ function spicy(input)
         document.getElementById("pepperimg").innerHTML='<img src="red_carolina_reaper.jpeg">';
     } else 
     {
-        document.write("no pepper type selected");
+        document.getElementById("pepperimg").innerHTML='';
     }
 }
 

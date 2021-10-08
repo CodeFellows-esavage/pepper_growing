@@ -13,13 +13,13 @@
             Pepper Growing
             </h1>
             <section id=promptResult>
-                <script>seattleLocal();</script>
+                <!-- <script>seattleLocal();</script> -->
                 <!-- <h2>&#128557 &#128557 &#128557 Prompt function seattleLocal() is currently broken. &#128557 &#128557 &#128557</h2> -->
             </section>
 
             <section class="navbar">
                 <ul>
-                    <li>Home</li>
+                    <li><a href="https://eriksavage.github.io/pepper_growing/">Home</a></li>
                     <li>How to Grow</li>
                     <li>Pepper Varieties</li>
                     <li>Tools</li>
@@ -30,23 +30,25 @@
             </section>
         </header>
         <main>
-            <section class="radio">
+            <section id="radio">
+                Select the pepper type you'd like to see:<br>
                 <input type="radio" name="pepperType" id="mild" value="mild" onclick="spicy('mild')">
                 <label for="mild">mild</label>
                 <input type="radio" name="pepperType" id="medium" value="medium" onclick="spicy('medium')">
                 <label for="medium">medium</label>
                 <input type="radio" name="pepperType" id="hot" value="hot" onclick="spicy('hot')">
                 <label for="hot">hot</label>
+                <input type="radio" name="pepperType" id="clear" value="clear" onclick="spicy('clear')">
+                <label for="clear">clear</label>
                 <section id="pepperimg">
-                </section>
+                </section><br>
                 <section id="cart">
                     <input type="number" name=pepperCart id="pepperCart">
                     <label for="pepperCart">How many Peppers would you like?</label>
                     <button onclick="cartAdd()">Add to Cart</button>
                 </section>
                 <section id="showCart">
-
-                </section>
+                </section><br>
                 
             </section>
             <section>
