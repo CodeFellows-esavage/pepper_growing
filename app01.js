@@ -2,13 +2,8 @@
 
 function spicy(input)
 {
-    // let mild = document.getElementById("mild");
-    // let medium = document.getElementById("medium");
-    // let hot = document.getElementById("hot");
-
     if(input == 'mild')
     {
-        // document.write('<p>image of mild pepper</p>');
         document.getElementById("pepperimg").innerHTML='<img src="red_bell_pepper.jpeg">';
     } else if(input == "medium")
     {
@@ -16,7 +11,6 @@ function spicy(input)
     } else if(input == "hot")
     {
         document.getElementById("pepperimg").innerHTML='<img src="red_carolina_reaper.jpeg">';
-        // document.write('<img scr="Carolina-Reaper-Pepper.jpg">');
     } else 
     {
         document.write("no pepper type selected");
@@ -46,15 +40,9 @@ function spicy(input)
 //Function 2: Should perform the same as a Function 2 commented out above, but this time it is executed with a while loop.
 function seattleLocal()
 {
-    // let userAnswer = prompt('Please Enter a number between 1-100');
-    // while(userAnswer != 1 || userAnswer != 100){
-    //     userAnswer = prompt('Try Again: Please Enter a number between 1-100');
-    //     console.log(userAnswer);
-    // }
-
     let local = prompt("Do you live in Seattle?", "Type Y or N");
     console.log(local)
-    while(local.toUpperCase != "Y" || local.toUpperCase != "N"){ //no idea why this isn't breaking out of the loop when condition is met
+    while(local.toUpperCase() != "Y" && local.toUpperCase() != "N"){ 
         local = prompt("Do you live in Seattle?", "Wrong Input!!! Type Y or N");
         console.log(local);
     }
