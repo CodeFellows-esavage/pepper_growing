@@ -12,8 +12,9 @@
             <h1>
             Pepper Growing
             </h1>
-            <section>
-                <script>seattleLocal();</script>
+            <section id=promptResult>
+                <!-- <script>seattleLocal();</script> -->
+                <h2>&#128557 &#128557 &#128557 Prompt function seattleLocal() is currently broken. &#128557 &#128557 &#128557</h2>
             </section>
 
             <section class="navbar">
@@ -37,6 +38,14 @@
                 <input type="radio" name="pepperType" id="hot" value="hot" onclick="spicy('hot')">
                 <label for="hot">hot</label>
                 <section id="pepperimg">
+                </section>
+                <section id="cart">
+                    <input type="number" name=pepperCart id="pepperCart">
+                    <label for="pepperCart">How many Peppers would you like?</label>
+                    <button onclick="cartAdd()">Add to Cart</button>
+                </section>
+                <section id="showCart">
+
                 </section>
                 
             </section>

@@ -8,6 +8,10 @@ body {
 header {
     background-color: #C4A381;
 }
+#promptResult{
+    text-align: center;
+}
+
 header h1 {
     text-align: center;
 }
@@ -46,4 +50,8 @@ footer {
 img {
     float: left;
     width: 50%;
+}
+
+#emoji {
+    width: 2em;
 }
