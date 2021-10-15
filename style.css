@@ -1,81 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-        font-family: 'Libre Baskerville', serif;
-        background-color: #EEF1BD;
-        text-align: center;
+  font-family: "Libre Baskerville", serif;
+  background-color: #eef1bd;
+  text-align: center;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-a :link{
-    text-decoration: none;
+a :link {
+  text-decoration: none;
 }
-a:visited{
-    text-decoration: none;
+a:visited {
+  text-decoration: none;
 }
 
-a :hover{
-    text-decoration: none;
-    color: #BBD686;
+a :hover {
+  text-decoration: none;
+  color: #bbd686;
 }
 
 header {
-    background-color: #C4A381;
+  background-color: #c4a381;
 }
-#promptResult{
-    text-align: center;
+#promptResult {
+  text-align: center;
 }
 
 header h1 {
-    text-align: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.radio{
-    margin: 10px;
-}
-.cart{
-    margin: 10px;
-}
-
-header li{
-    display: inline;
-    color: #EEF1BD;
-    text-decoration: none;
-    /* border-right: solid black 1px; */
-    margin: 0px 20px;
-    padding: 2px;
-
+header li {
+  display: inline;
+  color: #eef1bd;
+  text-decoration: none;
+  margin: 30px;
+  padding: 2px;
 }
 .navbar {
-    background-color: #B2675E;
-    list-style-type: none;
-    text-align: center;
-    margin: 0px;
-    padding: px;
+  background-color: #b2675e;
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#radio p {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 8px;
 }
 
-.radio {
-    display: inline;
+#radio label {
+  padding: 5px;
+}
+
+#cart p {
+  padding-bottom: 8px;
+  font-size: 18px;
+}
+
+#cart input {
+  width: 75px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#cart button {
+  width: 50px;
+  font-size: 25px;
+  text-align: center;
 }
 
 footer {
-    background-color: #C4A381;
-    text-align: center;
-
+  background-color: #c4a381;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
 }
 
- footer li {
-    display: inline;
-    margin: 10px;
- }
+footer p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+footer li {
+  display: inline;
+  margin: 10px;
+}
 
 img {
-    /* float: left; */
-    width: 50em;
-    margin: 10px;
+  /* float: left; */
+  width: 50em;
+  margin: 10px;
 }
 
 #emoji {
-    width: 2em;
+  width: 2em;
 }

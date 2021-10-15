@@ -13,7 +13,7 @@
             Pepper Growing
             </h1>
             <section id=promptResult>
-                <script>seattleLocal();</script>
+                <!-- <script>seattleLocal();</script> -->
                 <!-- <h2>&#128557 &#128557 &#128557 Prompt function seattleLocal() is currently broken. &#128557 &#128557 &#128557</h2> -->
             </section>
 
@@ -31,7 +31,7 @@
         </header>
         <main>
             <section id="radio">
-                Select the pepper type you'd like to see:<br>
+                <p>Select the pepper type you'd like to see:</p>
                 <input type="radio" name="pepperType" id="mild" value="mild" onclick="spicy('mild')">
                 <label for="mild">mild</label>
                 <input type="radio" name="pepperType" id="medium" value="medium" onclick="spicy('medium')">
@@ -42,15 +42,16 @@
                 <label for="clear">clear</label>
                 <section id="pepperimg">
                 </section><br>
-                <section id="cart">
-                    <input type="number" name=pepperCart id="pepperCart">
-                    <label for="pepperCart">How many Peppers would you like?</label>
-                    <button onclick="cartAdd()">Add to Cart</button>
-                </section>
-                <section id="showCart">
-                </section><br>
-                
             </section>
+            <section id="cart">
+                <p>How many Peppers would you like?</p>
+                <!-- <label for="pepperCart">How many Peppers would you like?</label><br> -->
+                <input type="number" name=pepperCart id="pepperCart">
+                <button onclick="cartAdd()" title="Add to Cart!">🛒</button>
+            </section>
+            <section id="showCart">
+            </section><br>
+                
             <section>
                 <img src="https://images.unsplash.com/photo-1601144698750-c9b8560bc1fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1752&q=80">
                 <p>
