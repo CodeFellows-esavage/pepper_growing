@@ -30,6 +30,7 @@ header {
 }
 #promptResult {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 header h1 {
